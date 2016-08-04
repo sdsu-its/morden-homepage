@@ -1,0 +1,62 @@
+body {
+    background: #270d22;
+}
+
+#container {
+    max-width: 750px;
+    width: 75%;
+
+    padding: 1.5em 3em 3em;
+
+    margin: 5em auto 5em;
+
+    background: #f6d8b1;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    color: #CC2A41;
+}
+
+h2 {
+    padding-top: 1.5em;
+}
+
+h3 {
+    text-indent: 20px;
+}
+
+.indent1 {
+    margin-left: 30px;
+}
+
+p, ul, div, strong, i {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #2d2d3d;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a, a > i {
+    color: #3e5c56;
+}
+
+ul {
+    line-height: 1.75;
+}
+
+.attribution, .attribution > a {
+    font-size: .75em;
+    color: #777777;
+}
+
+.attribution > a {
+    font-style: italic;
+    text-decoration: none;
+}

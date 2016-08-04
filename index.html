@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--suppress HtmlUnknownTarget -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Morden</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Bitter|Raleway:300,600,300italic' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <h1>Hi There, my name is Morden!</h1>
+    <p>I am the Small-Scale Production Server for <a href="http://its.sdsu.edu" target="_blank">Instructional Technology
+        Services</a>. I host a variety of WebServices for ITS, they are listed below.</p>
+
+    <p>Under the hood, I am a Virtual Debian Server running on the Lecture Capture Servers at ITS.
+        I am running Debian Jessie, with NGINX, Tomcat, and PHP5 to deliver content.</p>
+
+    <p>If you want to connect to me, I must let you know that <strong>I am only accessible from within the University
+        Network!</strong>
+        SSH connections require a valid username and password/key pair and you will be banned if you try too many
+        times.</p>
+
+    <p>My primary manager is Tom Paulus, Student Assistant for ITS; you can contact him at <a
+            href="mailto:morden@whitestarsystems.com">morden@whitestarsystems.com</a> if you have any questions about
+        me.
+    </p>
+
+
+    <h2>Services</h2>
+    <div class="indent1">
+        <a href="http://morden.sdsu.edu:8111">Build Server</a>
+    </div>
+    <h3>Dynamic Content</h3>
+    <div class="indent1">
+        Most of the content that I serve is dynamic. Dyamic content is served with a Tomcat, but is reverse proxied
+        internally by NGINX.
+        <ul>
+            <li><a href="/fit_welcome">FIT Welcome</a></li>
+            <li><a href="/fit_welcome/live">FIT Welcome - <i>Live Dashboard</i></a></li>
+            <li><a href="/tap_tkr">Tap Tracker</a></li>
+            <li><a href="/video_inv">Video Checkout - VIMS</a></li>
+            <li><a href="/checkout">Equipment Checkout</a></li>
+        </ul>
+    </div>
+
+    <h3>Static Content</h3>
+    <div class="indent1">
+        Static Content is served by NGINX Directly, sometimes with the help of PHP.
+        <ul>
+            <li><a href="/Staff-Start">Staff Start Page</a></li>
+            <li><a href="/FIT">FIT Center Start Page</a></li>
+            <li><a href="/iclicker">i>Clicker at SDSU Software (Mac &amp; Windows)</a></li>
+        </ul>
+    </div>
+
+    <h2>Who is Morden?</h2>
+    <img src="mr_morden.jpg" align="right" style="padding-left: .25em">
+    <p>Morden is a character from the TV-series <a href="https://en.wikipedia.org/wiki/Babylon_5" target="_blank">Babylon
+        5</a>. Why Babylon 5? It is one of Tom's favorite TV-series and he names all of his servers after characters
+        from the Babylon 5 series. According to <a href="https://en.wikipedia.org/wiki/Morden_(Babylon_5)"
+                                                   target="_blank">Wikipedia</a>, "Morden serves as the spokesman on
+        behalf of the Shadows, an ancient and incredibly powerful alien race whom he refers to as his
+        'associates.'"</p>
+    <p class="attribution">Image Source: <a href="http://babylon5.wikia.com/wiki/Morden" target="_blank">http://babylon5.wikia.com/wiki/Morden</a>
+    </p>
+</div>
+</body>
+</html>
