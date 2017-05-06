@@ -12,49 +12,36 @@
 <body>
 <div id="container">
     <h1>Hi There, my name is Morden!</h1>
-    <p>I am the Small-Scale Production Server for <a href="http://its.sdsu.edu" target="_blank">Instructional Technology
-        Services</a>. I host a variety of WebServices for ITS, they are listed below.</p>
+    <p>I am the WebApps Production Server for <a href="http://its.sdsu.edu" target="_blank">Instructional Technology
+        Services</a>. I host a variety of Web Applications and Services for ITS, which are listed below.</p>
 
-    <p>Under the hood, I am a Virtual Debian Server running on the Lecture Capture Servers at ITS.
-        I am running Debian Jessie, with NGINX, Tomcat, and PHP5 to deliver content.</p>
-
-    <p>If you want to connect to me, I must let you know that <strong>I am only accessible from within the University
-        Network!</strong>
-        SSH connections require a valid username and password/key pair and you will be banned if you try too many
-        times.</p>
-
-    <p>My primary manager is Tom Paulus, Student Assistant for ITS; you can contact him at <a
-            href="mailto:morden@whitestarsystems.com">morden@whitestarsystems.com</a> if you have any questions about
-        me.
+    <p>My primary manager is Tom Paulus, Student Assistant at ITS; you can contact him at <a
+            href="mailto:tpaulus@sdsu.edu">tpaulus@sdsu.edu</a> if you have any questions about
+        this system.
     </p>
-
 
     <h2>Services</h2>
     <div class="indent1">
         <ul>
-            <li><a href="http://morden.sdsu.edu:9000">Issue Tracker </a></li>
-            <li><a href="http://morden.sdsu.edu:8111">Build Server</a></li>
+            <li><a href="http://morden.sdsu.edu:9050">Team Ware SSO (HUB)</a></li>
+            <li><a href="http://morden.sdsu.edu:8000">Vault Access</a></li>
         </ul>
     </div>
     <h3>Dynamic Content</h3>
     <div class="indent1">
-        Most of the content that I serve is dynamic. Dynamic content is served with a Tomcat, but is reverse proxied
-        internally by NGINX.
         <ul>
             <li><a href="/welcome">FIT Welcome</a></li>
             <li><a href="/tap_tkr">Tap Tracker</a></li>
             <li><a href="/video_inv">Video Checkout - VIMS</a></li>
-            <!--<li><a href="/checkout">Equipment Checkout</a></li>-->
+            <li><a href="/ms-monitor">Media Site Recorder Monitor</a></li>
         </ul>
     </div>
 
     <h3>Static Content</h3>
     <div class="indent1">
-        Static Content is served by NGINX Directly, sometimes with the help of PHP.
         <ul>
             <li><a href="/Staff-Start">Staff Start Page</a></li>
             <li><a href="/FIT">FIT Center Start Page</a></li>
-            <!--<li><a href="/iclicker">i>Clicker at SDSU Software (Mac &amp; Windows)</a></li>-->
         </ul>
     </div>
 
